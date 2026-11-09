@@ -2,8 +2,8 @@ from astropy.table import QTable
 import astropy.units as u
 import numpy as np
 
-from timeo import activities
-from timeo.gmapping import GMapping
+from coconut import activities
+from coconut.gmapping import GMapping
 
 
 def test_work_footprint():

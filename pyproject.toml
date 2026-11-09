@@ -8,7 +8,7 @@ authors = [
 ]
 description = "Data processing organization CO2 footprint estimator"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -44,4 +44,4 @@ requires = ["uv_build>=0.10.0,<0.11.0"]
 build-backend = "uv_build"
 
 [project.scripts]
-timeo = "coconut.client:run"
+coco = "coconut.client:run"

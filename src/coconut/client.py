@@ -1,13 +1,13 @@
 # SPDX-FileCopyrightText: Copyright (C) 2025-2026, Antoine Basset (CNES) and contributors
-# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/timeo
+# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/coconut
 # SPDX-License-Identifier: Apache-2.0
 
 import argparse
 from pathlib import Path
 
-from timeo import _version
-from timeo.logging import logger
-from timeo import process
+from coconut import _version
+from coconut.logging import logger
+from coconut import process
 
 
 def add_parser():

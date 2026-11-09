@@ -2,9 +2,9 @@ from astropy import units as u
 from geopy.distance import geodesic
 from geopy.geocoders import Nominatim
 
-from timeo import _version
-from timeo.ctree import CTree
-from timeo.gmapping import GMapping
+from coconut import _version
+from coconut.ctree import CTree
+from coconut.gmapping import GMapping
 
 _geocoder = Nominatim(user_agent=_version.__title__)
 

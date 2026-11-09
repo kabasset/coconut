@@ -1,7 +1,7 @@
 import astropy.units as u
 import math
 
-from timeo.ctree import CTree
+from coconut.ctree import CTree
 
 
 def test_ctree_floats():

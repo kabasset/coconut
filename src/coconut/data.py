@@ -1,12 +1,12 @@
 # SPDX-FileCopyrightText: Copyright (C) 2025-2026, Antoine Basset (CNES) and contributors
-# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/timeo
+# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/coconut
 # SPDX-License-Identifier: Apache-2.0
 
 from dataclasses import dataclass
 import pandas as pd
 from pathlib import Path
 
-from timeo.logging import logger
+from coconut.logging import logger
 
 
 @dataclass

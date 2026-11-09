@@ -1,13 +1,13 @@
 # SPDX-FileCopyrightText: Copyright (C) 2025-2026, Antoine Basset (CNES) and contributors
-# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/timeo
+# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/coconut
 # SPDX-License-Identifier: Apache-2.0
 
 from typing import Callable
 
 import astropy.units as u
 
-from timeo.ctree import CTree
-from timeo.gmapping import GMapping
+from coconut.ctree import CTree
+from coconut.gmapping import GMapping
 
 defaults = {
     "laptop_power_draw": 50 * u.W,  # laptop + 28" screen + docking station

@@ -1,8 +1,8 @@
 # SPDX-FileCopyrightText: Copyright (C) 2025-2026, Antoine Basset (CNES) and contributors
-# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/timeo
+# SPDX-PackageSourceInfo: https://gitlab.esa.int/lisa-sgs/sys/sandbox/coconut
 # SPDX-License-Identifier: Apache-2.0
 
-from typing import Callable
+from typing import Callable, Self
 
 import jsonpath
 
@@ -89,7 +89,7 @@ class CTree:
         """
         return scan(tree, self._agg, self._key, self._dtype)
 
-    def __getitem__(self, key) -> CTree:
+    def __getitem__(self, key) -> Self:
         """
         Get a cumulative subtree.
         """
