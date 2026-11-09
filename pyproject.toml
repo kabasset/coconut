@@ -27,12 +27,14 @@ dependencies = [
 [dependency-groups]
 dev = [
   "pytest",
+  "pytest-cov",
   "sphinx",
   "sphinxawesome-theme",
   "sphinx-changelog",
   "sphinxcontrib-images",
   "sphinxcontrib-plantuml",
   "sphinxcontrib-video",
+  "sphinx-new-tab-link",
   "gitpython",
 ]
 
