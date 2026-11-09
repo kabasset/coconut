@@ -9,8 +9,8 @@ It covers:
 
 * Human resources, including:
   * personal computer equipment,
-  * home-work travels,
-  * work travels;
+  * home-to-work travels,
+  * business travels;
 * Shared hardware, including:
   * storage,
   * processing units.
@@ -18,3 +18,9 @@ It covers:
 ## License
 
 [Apache-2.0](LICENSE)
+
+## Contributors
+
+* Antoine Basset (CNES)
+* Aloïs Doucet (CNES former intern, developer of the prototype)
+* Hugo Palacin (CNES)
