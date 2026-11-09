@@ -41,6 +41,6 @@ def run(args):
         activities.eval_compute_footprint,
         {"FR": {"CNES": resources, "IN2P3": resources}},
     )
-    footprint.log(logger, formatter=lambda v: str(v.to(u.kg)))
+    footprint.log(logger, formatter=lambda v: f"{v.to(u.kg):.2f}")
     logger.info(f"CPU: {footprint.agg("$..CPU").to(u.kg)}")
     logger.info(f"GPU: {footprint.agg("$..GPU").to(u.kg)}")
