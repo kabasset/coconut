@@ -1,0 +1,19 @@
+
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: country, datatype: string}
+# - {name: electric_mix, unit: g / (kW h), datatype: float64}
+country electric_mix
+NO 30.75
+CH 36.6
+FR 44.18
+FI 72.25
+PT 112.29
+BE 117.58
+ES 146.15
+UK 210.89
+RO 245.55
+NL 253.31
+IT 287.53
+DE 344.14
